@@ -2,12 +2,12 @@ html{
 
 	height: 100%;
 	background: rgba(28, 196, 252, 0.3);
-
+	font-family: 'Mountains of Christmas', cursive;
 }
 
 .element-animation{
 
-	animation: animationFrames linear 1s, movement linear 6s;
+	animation: animationFrames linear 1s, movement linear 6.5s;
 	animation-iteration-count: infinite;
 	transform-origin: 50% 50%;
 
@@ -77,14 +77,26 @@ html{
 
 	margin-top: 3px;
 	margin-bottom: 3px;
+	color: rgba(255, 255, 255);
+	text-shadow: 1px 1px 0px rgb(207, 92, 56);
+}
 
+h1 {
+	color: rgba(255, 255, 255);
+	text-shadow: 1px 1px 0px rgb(207, 92, 56);
+}
+
+h2 {
+	color: rgba(255, 255, 255);
+	text-shadow: 1px 1px 0px rgb(207, 92, 56);
 }
 
 .timerContainer > h2 {
 
 	margin-top: 0;
 	margin-bottom: 0;
-
+	color: rgba(255, 255, 255);
+	text-shadow: 1px 1px 0px rgb(207, 92, 56);
 }
 
 .job-listing-card {
@@ -98,7 +110,7 @@ html{
 	padding-right: 10px;
 	float: left;
 	height: 200px;
-	width: 300px;
+	width: 275px;
 	box-shadow: 2px 2px 0px 1px rgba(207, 92, 56);
 
 }
@@ -134,7 +146,8 @@ html{
 	margin-bottom: 3px;
 	text-align: center;
 	bottom: 0;
-
+	color: rgba(255, 255, 255);
+	text-shadow: 3px 3px 0px rgb(207, 92, 56);
 }
 
 .job-listing-card > h2  {

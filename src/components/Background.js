@@ -12,7 +12,7 @@ export default class Background extends Component {
 				src={background}
 				alt='background'
 				draggable={false}
-				style={this.props.gameRunning ? {zIndex: '0'} : {zIndex: '-1'}}
+				style={{zIndex: '-1'}}
 			/>
 
 		);
