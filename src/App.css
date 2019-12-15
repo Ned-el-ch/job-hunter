@@ -81,22 +81,28 @@ html{
 	text-shadow: 1px 1px 0px rgb(207, 92, 56);
 }
 
-h1 {
-	color: rgba(255, 255, 255);
-	text-shadow: 1px 1px 0px rgb(207, 92, 56);
-}
-
-h2 {
-	color: rgba(255, 255, 255);
-	text-shadow: 1px 1px 0px rgb(207, 92, 56);
-}
-
 .timerContainer > h2 {
 
 	margin-top: 0;
 	margin-bottom: 0;
 	color: rgba(255, 255, 255);
 	text-shadow: 1px 1px 0px rgb(207, 92, 56);
+}
+
+h1 {
+
+	color: rgba(255, 255, 255);
+	text-shadow: 1px 1px 0px rgb(207, 92, 56);
+	padding-left: 10px;
+
+}
+
+h2 {
+
+	color: rgba(255, 255, 255);
+	text-shadow: 1px 1px 0px rgb(207, 92, 56);
+	padding-left: 10px;
+
 }
 
 .job-listing-card {

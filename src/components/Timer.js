@@ -49,7 +49,7 @@ export default class Timer extends Component {
 
 			<div className='timerContainer'>
 
-				<h1>Time: {this.state.currentCount}</h1>
+				<h1 style={this.state.currentCount < 10 ? {color: 'red'} : {color: 'white'}}>Time: {this.state.currentCount}</h1>
 				<h2>Score: {this.props.points}</h2>
 
 			</div>
