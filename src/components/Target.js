@@ -16,7 +16,7 @@ export default class Target extends Component {
 				src={reindeer}
 				style={{
 
-					height: '100px',
+					height: '110px',
 					position: 'absolute',
 					top: this.props.top,
 					left: this.props.left
