@@ -11,8 +11,8 @@ export default class TargetContainer extends Component {
 
 			targetPositions: [],
 			targetsSpawned: 0,
-			canSpawn: 10,
-			spawnInterval: 700
+			canSpawn: 15,
+			spawnInterval: 300
 
 		};
 
@@ -47,7 +47,7 @@ export default class TargetContainer extends Component {
 		this.setState({
 			targetPositions: arr,
 			canSpawn: this.state.canSpawn + 1,
-			spawnInterval: Math.ceil(Math.random() * 600) + 300
+			spawnInterval: Math.ceil(Math.random() * 300) + 300
 		})
 
 	}

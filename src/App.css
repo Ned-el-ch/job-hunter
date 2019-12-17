@@ -7,7 +7,7 @@ html{
 
 .element-animation{
 
-	animation: animationFrames linear 1s, movement linear 6.5s;
+	animation: animationFrames linear 1s, movement linear 4s;
 	animation-iteration-count: infinite;
 	transform-origin: 50% 50%;
 
